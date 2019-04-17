@@ -2183,7 +2183,7 @@
     <Content Include="Umbraco\Views\users\views\groups\groups.html" />
     <Content Include="Umbraco\Views\users\views\users\users.html" />
     <Content Include="Umbraco\Views\users\views\user\details.html" />
-    <Content Include="Views\home.cshtml" />
+    <Content Include="Views\homenologgged.cshtml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

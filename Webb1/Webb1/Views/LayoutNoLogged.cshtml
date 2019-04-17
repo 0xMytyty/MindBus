@@ -15,19 +15,14 @@
 </head>
 <body>
 
-
     <!-- Header -->
-
     @{Html.RenderAction("RenderHeaderHome", "SiteSharedLayout");}
     <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-
     @RenderBody()
+
 
     <!-- Footer -->
     @{Html.RenderAction("RenderFooter", "SiteSharedLayout");}
-
-
-
 
 
 
@@ -37,6 +32,6 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
 </body>
 </html>
+                        
