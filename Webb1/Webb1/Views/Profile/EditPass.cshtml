@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "EditPass";
+    Layout = "~/Views/webBaseTemplate.cshtml";
+}
+
+<html>
+<body>
+
+    <p>CHANGE YOUR PASSWORD</p>
+    <form method="post" action="@Url.Action("EditPass","Profile")">
+        Old password: <br /><input type="text" name="Password" value=><br>
+        New password: <br /><input type="password" name="NPassword" value=><br>
+        Confirm new password: <br /><input type="password" name="CNPassword" value=><br>
+        <input type="submit" value="Submit">
+
+        @Html.ValidationSummary()
+    </form>
+</body>
+</html>
