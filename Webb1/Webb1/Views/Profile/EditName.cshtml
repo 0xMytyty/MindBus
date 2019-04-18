@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Editname";
+    Layout = "~/Views/webBaseTemplate.cshtml";
+}
+
+<html>
+<body>
+
+    <p>CHANGE YOUR USERNAME</p>
+    <form method="post" action="@Url.Action("EditName","Profile")">
+        New Username: <br /><input type="text" name="Username" value=><br>
+        Confirm username: <br /><input type="text" name="CUsername" value=><br>
+        <input type="submit" value="Submit">
+
+        @Html.ValidationSummary()
+    </form>
+</body>
+</html>
